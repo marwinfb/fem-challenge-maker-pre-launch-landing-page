@@ -1,4 +1,3 @@
-import Button from "./components/base/Button";
 import Logo from "./components/base/Logo";
 import Feature from "./components/sections/Feature";
 import Hero from "./components/sections/Hero";

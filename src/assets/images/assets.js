@@ -14,7 +14,6 @@ import illustrationLifestyleSvg from './illustration-lifestyle.svg';
 import illustrationPassionsSvg from './illustration-passions.svg';
 import illustrationWorkAnywhereSvg from './illustration-work-anywhere.svg';
 import logoSvg from './logo.svg';
-import reactSvg from './react.svg';
 
 const images = {
   bgFooterSquiggleSvg,
@@ -33,7 +32,6 @@ const images = {
   illustrationPassionsSvg,
   illustrationWorkAnywhereSvg,
   logoSvg,
-  reactSvg,
 };
 
 export default images;
