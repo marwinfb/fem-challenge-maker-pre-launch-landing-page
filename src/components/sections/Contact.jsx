@@ -1,6 +1,6 @@
 import images from "../../assets/images/assets"
-import Button from "../base/Button";
-import Input from "../base/Input";
+import Form from "../base/Form";
+
 
 const Contact = () => {
   return (
@@ -10,10 +10,7 @@ const Contact = () => {
           Get notified when we launch
         </h3>
 
-        <form className="mt-10 mb-8 flex flex-col md:flex-row gap-5">
-          <Input />
-          <Button />
-        </form>
+        <Form />
       </div>
     </div>
   );
