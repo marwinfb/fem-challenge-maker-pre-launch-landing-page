@@ -39,11 +39,11 @@ const features = [
 const Feature = () => {
   return (
     <section className="my-20 lg:my-30 md:max-w-3xl lg:max-w-6xl mx-auto">
-      <ul className="flex flex-col lg:flex-row gap-12">
+      <div className="flex flex-col lg:flex-row gap-12">
         {features.map((feature) => (              
           <FeatureItem key={feature.id} feature={feature} />
         ))}
-      </ul>
+      </div>
     </section>
   );
 };

@@ -6,9 +6,9 @@ const Contact = () => {
   return (
     <div className="w-full bg-no-repeat bg-center bg-contain" style={{backgroundImage: `url(${images.bgFooterSquiggleSvg})`}}>
       <div className="max-w-md mx-auto text-center md:py-12.5">
-        <h2 className="text-preset-3 text-center text-primary-neutral-000">
+        <h3 className="text-preset-3 text-center text-primary-neutral-000">
           Get notified when we launch
-        </h2>
+        </h3>
 
         <form className="mt-10 mb-8 flex flex-col md:flex-row gap-5">
           <Input />
