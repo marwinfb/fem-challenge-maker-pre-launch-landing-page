@@ -53,4 +53,18 @@
   .text-preset-7 {
     @apply text-[.75rem] font-medium leading-[1.6];
   }
+
+  .hero-illustration {
+    background-image: url("./assets/images/bg-hero-squiggle.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+
+  .footer-illustration {
+    background-image: url("./assets/images/bg-footer-squiggle.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  } 
 }
